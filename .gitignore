@@ -24,3 +24,5 @@ yarn-error.log*
 
 # Files
 firebase.config.js
+/firebase.config.js
+.firebase.config.js
