@@ -1,0 +1,330 @@
+var laptops = [
+  {
+    key: 'B06X6J2RLY',
+    category: 'laptop',
+    name:
+      'HP 15.6-Inch HD Touchscreen Laptop (Intel Quad Core Pentium N3540 2.16 GHz, 4GB DDR3L-1600 Memory, 500 GB HDD, DVD Burner, HDMI, HD Webcam, Win 10)',
+    seller: 'HP',
+    wholePrice: '287',
+    priceFraction: '94',
+    stock: 85,
+    star: 4,
+    starCount: 149,
+    discount: 31,
+    img:
+      'https://images-na.ssl-images-amazon.com/images/I/416UTZJ0FbL._AC_US218_.jpg',
+    url:
+      'https://www.amazon.com/HP-15-6-Inch-Touchscreen-Pentium-DDR3L-1600/dp/B06X6J2RLY/ref=sr_1_15?s=electronics&ie=UTF8&qid=1499124890&sr=1-15&keywords=laptop',
+    features: [
+      { description: 'Display Size', value: '15.6 inches' },
+      { description: 'Computer Memory Size', value: '4.0 GB' },
+      { description: 'Operating System', value: 'Windows 10' },
+      { description: 'Hard Disk Size', value: '500.0 GB' },
+      { description: 'Cpu Model Family', value: 'pentium' },
+    ],
+    price: 287.94,
+    shipping: 7.99,
+  },
+  {
+    key: 'B01N5G5PG2',
+    category: 'laptop',
+    name:
+      'ASUS Chromebook Flip C302CA-DHM4 12.5-Inch Touchscreen Intel Core m3 with 64GB storage and 4GB RAM',
+    seller: 'Asus',
+    wholePrice: '499',
+    priceFraction: '00',
+    stock: 52,
+    star: 4,
+    starCount: 1146,
+    discount: 25,
+    img:
+      'https://images-na.ssl-images-amazon.com/images/I/41LBkDN-S3L._AC_US218_.jpg',
+    url:
+      'https://www.amazon.com/Chromebook-C302CA-DHM4-12-5-Inch-Touchscreen-storage/dp/B01N5G5PG2/ref=sr_1_16?s=electronics&ie=UTF8&qid=1499124890&sr=1-16&keywords=laptop',
+    features: [
+      { description: 'Display Size', value: '12.5 inches' },
+      { description: 'Computer Memory Size', value: '4 GB' },
+      { description: 'Operating System', value: 'Chrome' },
+      { description: 'Hard Disk Size', value: '64 GB' },
+      { description: 'Cpu Model Family', value: 'core m' },
+    ],
+    price: 499,
+    shipping: 0,
+  },
+  {
+    key: 'B01LZ6XKS6',
+    category: 'laptop',
+    name: 'Samsung Chromebook Plus Convertible Touch Laptop (XE513C24-K01US)',
+    seller: 'Samsung',
+    wholePrice: '408',
+    priceFraction: '45',
+    stock: 96,
+    star: 4,
+    starCount: 3742,
+    discount: 23,
+    img:
+      'https://images-na.ssl-images-amazon.com/images/I/41Ux4186xoL._AC_US218_.jpg',
+    url:
+      'https://www.amazon.com/Samsung-Chromebook-Convertible-Laptop-XE513C24-K01US/dp/B01LZ6XKS6/ref=sr_1_17?s=electronics&ie=UTF8&qid=1499124890&sr=1-17&keywords=laptop',
+    features: [
+      { description: 'Display Size', value: '12.3 inches' },
+      { description: 'Computer Memory Size', value: '4 GB' },
+      { description: 'Operating System', value: 'Chrome' },
+      { description: 'Hard Disk Size', value: '32 GB' },
+      { description: 'Connectivity Technology', value: 'wireless' },
+    ],
+    price: 408.45,
+    shipping: 3.99,
+  },
+  {
+    key: 'B06XFGF7SN',
+    category: 'laptop',
+    name:
+      'Dell Inspiron 15.6" Gaming Laptop (7th Gen Intel Core i7, 8 GB RAM, 1000 GB HDD + 128GB SSD), NVIDIA GTX 1050) (i5577-7359BLK-PUS)',
+    seller: 'Dell',
+    wholePrice: '899',
+    priceFraction: '99',
+    stock: 57,
+    star: 3,
+    starCount: 3972,
+    discount: 27,
+    img:
+      'https://images-na.ssl-images-amazon.com/images/I/41zfabBnrLL._AC_US218_.jpg',
+    url:
+      'https://www.amazon.com/Dell-Inspiron-Gaming-Laptop-i5577-7359BLK-PUS/dp/B06XFGF7SN/ref=sr_1_18?s=electronics&ie=UTF8&qid=1499124890&sr=1-18&keywords=laptop',
+    features: [
+      { description: 'Display Size', value: '15.6 inches' },
+      { description: 'Computer Memory Size', value: '8 GB' },
+      {
+        description: 'Operating System',
+        value: 'Windows 10 Home 64-bit English',
+      },
+      { description: 'Hard Disk Size', value: '1000 GB' },
+      { description: 'Cpu Model Family', value: 'core i5 6300hq' },
+    ],
+    price: 899.99,
+    shipping: 3.99,
+  },
+  {
+    key: 'B01LT692RK',
+    category: 'laptop',
+    name:
+      'ASUS E200HA Portable Lightweight 11.6-inch Intel Quad-Core Laptop, 4GB RAM, 32GB Storage, Windows 10 with 1 Year Microsoft Office 365 Subscription',
+    seller: 'Asus',
+    wholePrice: '199',
+    priceFraction: '00',
+    stock: 41,
+    star: 3,
+    starCount: 4074,
+    discount: 31,
+    img:
+      'https://images-na.ssl-images-amazon.com/images/I/51zIMkOI70L._AC_US218_.jpg',
+    url:
+      'https://www.amazon.com/Lightweight-11-6-inch-Quad-Core-Microsoft-Subscription/dp/B01LT692RK/ref=sr_1_19?s=electronics&ie=UTF8&qid=1499124890&sr=1-19&keywords=laptop',
+    features: [
+      { description: 'Display Size', value: '11.6 inches' },
+      { description: 'Computer Memory Size', value: '4 GB' },
+      { description: 'Operating System', value: 'Windows 10' },
+      { description: 'Hard Disk Size', value: '32 GB' },
+      { description: 'Cpu Model Family', value: 'intel atom' },
+    ],
+    price: 199,
+    shipping: 3.99,
+  },
+  {
+    key: 'B071LB1GG4',
+    category: 'laptop',
+    name: 'Samsung XE510C24-K01US Chromebook Pro',
+    seller: 'Samsung',
+    wholePrice: '549',
+    priceFraction: '99',
+    stock: 91,
+    star: 4,
+    starCount: 1157,
+    discount: 31,
+    img:
+      'https://images-na.ssl-images-amazon.com/images/I/41QCsi3gCrL._AC_US218_.jpg',
+    url:
+      'https://www.amazon.com/Samsung-XE510C24-K01US-Chromebook-Pro/dp/B071LB1GG4/ref=sr_1_20?s=electronics&ie=UTF8&qid=1499124890&sr=1-20&keywords=laptop',
+    features: [
+      { description: 'Display Size', value: '12.3 inches' },
+      { description: 'Computer Memory Size', value: '4 GB' },
+      { description: 'Operating System', value: 'Chrome' },
+      { description: 'Connectivity Technology', value: 'wireless' },
+      { description: 'Hardware Platform', value: 'Chrome' },
+    ],
+    price: 549.99,
+    shipping: 0,
+  },
+  {
+    key: 'B01CVOLVPA',
+    category: 'laptop',
+    name:
+      'Acer Chromebook 14, Aluminum, 14-inch Full HD, Intel Celeron Quad-Core N3160, 4GB LPDDR3, 32GB, Chrome, CB3-431-C5FM',
+    seller: 'Acer',
+    wholePrice: '294',
+    priceFraction: '98',
+    stock: 57,
+    star: 4,
+    starCount: 678,
+    discount: 26,
+    img:
+      'https://images-na.ssl-images-amazon.com/images/I/518PvURfFsL._AC_US218_.jpg',
+    url:
+      'https://www.amazon.com/Acer-Chromebook-Aluminum-Quad-Core-CB3-431-C5FM/dp/B01CVOLVPA/ref=sr_1_21?s=electronics&ie=UTF8&qid=1499124890&sr=1-21&keywords=laptop',
+    features: [
+      { description: 'Display Size', value: '14 inches' },
+      { description: 'Computer Memory Size', value: '4 GB' },
+      { description: 'Operating System', value: 'Chrome' },
+      { description: 'Hard Disk Size', value: '32 GB' },
+      { description: 'Cpu Model Family', value: 'celeron' },
+    ],
+    price: 294.98,
+    shipping: 7.99,
+  },
+  {
+    key: 'B01EIUOSRS',
+    category: 'laptop',
+    name:
+      'Apple MMGF2LL/A MacBook Air 13.3-Inch Laptop (8GB RAM 128 GB SSD) MMGF2',
+    seller: 'Apple',
+    wholePrice: '799',
+    priceFraction: '99',
+    stock: 51,
+    star: 4,
+    starCount: 3295,
+    discount: 28,
+    img:
+      'https://images-na.ssl-images-amazon.com/images/I/41AerRC5u6L._AC_US218_.jpg',
+    url:
+      'https://www.amazon.com/Apple-MMGF2LL-MacBook-13-3-Inch-Laptop/dp/B01EIUOSRS/ref=sr_1_22?s=electronics&ie=UTF8&qid=1499124890&sr=1-22&keywords=laptop',
+    features: [
+      { description: 'Display Size', value: '13.3 inches' },
+      { description: 'Computer Memory Size', value: '8 GB' },
+      { description: 'Operating System', value: 'Mac OS X' },
+      { description: 'Hard Disk Size', value: '128 GB' },
+      { description: 'Cpu Model Family', value: 'core i5' },
+    ],
+    price: 799.99,
+    shipping: 7.99,
+  },
+  {
+    key: 'B01JLCKP34',
+    category: 'laptop',
+    name:
+      'HP Stream Laptop PC 14-ax010nr (Intel Celeron N3060, 4 GB RAM, 32 GB eMMC) with Office 365 Personal for one year',
+    seller: 'HP',
+    wholePrice: '219',
+    priceFraction: '99',
+    stock: 62,
+    star: 3,
+    starCount: 2286,
+    discount: 29,
+    img:
+      'https://images-na.ssl-images-amazon.com/images/I/51h+5rcpStL._AC_US218_.jpg',
+    url:
+      'https://www.amazon.com/HP-Stream-14-ax010nr-Celeron-Personal/dp/B01JLCKP34/ref=sr_1_23?s=electronics&ie=UTF8&qid=1499124890&sr=1-23&keywords=laptop',
+    features: [
+      { description: 'Display Size', value: '14 inches' },
+      { description: 'Computer Memory Size', value: '4 GB' },
+      { description: 'Operating System', value: 'Windows 10' },
+      { description: 'Hard Disk Size', value: '32 GB' },
+      { description: 'Cpu Model Family', value: 'celeron' },
+    ],
+    price: 219.99,
+    shipping: 7.99,
+  },
+  {
+    key: 'B071SF41Y9',
+    category: 'laptop',
+    name: 'Microsoft Surface Pro (Intel Core i5, 8GB RAM, 256GB)',
+    seller: 'Microsoft',
+    wholePrice: '1,294',
+    priceFraction: '99',
+    stock: 99,
+    star: 3,
+    starCount: 461,
+    discount: 21,
+    img:
+      'https://images-na.ssl-images-amazon.com/images/I/418g6Q3eTHL._AC_US218_.jpg',
+    url:
+      'https://www.amazon.com/Microsoft-Surface-Intel-Core-256GB/dp/B071SF41Y9/ref=sr_1_25?s=electronics&ie=UTF8&qid=1499124890&sr=1-25&keywords=laptop',
+    features: [
+      { description: 'Display Size', value: '12.3 inches' },
+      { description: 'Computer Memory Size', value: '8 GB' },
+      { description: 'Operating System', value: 'Windows 10 Pro' },
+      { description: 'Cpu Model Family', value: '8032' },
+      { description: 'Display Technology', value: 'LCD' },
+    ],
+    price: 1000,
+    shipping: 7.99,
+  },
+  {
+    key: 'B01N5P6TJW',
+    category: 'laptop',
+    name:
+      'Samsung Chromebook 3, 11.6", 4GB RAM, 16GB eMMC, Chromebook (XE500C13-K04US)',
+    seller: 'Samsung',
+    wholePrice: '169',
+    priceFraction: '00',
+    stock: 36,
+    star: 3,
+    starCount: 2527,
+    discount: 22,
+    img:
+      'https://images-na.ssl-images-amazon.com/images/I/41XCWymAVaL._AC_US218_.jpg',
+    url:
+      'https://www.amazon.com/Samsung-Chromebook-11-6-16GB-XE500C13-K04US/dp/B01N5P6TJW/ref=sr_1_26?s=electronics&ie=UTF8&qid=1499124890&sr=1-26&keywords=laptop',
+    features: [
+      { description: 'Display Size', value: '11.6 inches' },
+      { description: 'Computer Memory Size', value: '4 GB' },
+      { description: 'Operating System', value: 'Chrome OS' },
+      { description: 'Hard Disk Size', value: '16 GB' },
+      { description: 'Cpu Model Family', value: '8032' },
+    ],
+    price: 169,
+    shipping: 7.99,
+  },
+  {
+    key: 'B01M8J68W0',
+    category: 'laptop',
+    name:
+      'Kayond Bule Rose Pattern 12-13 inch Canvas laptop sleeve with pocket 12.5inch 13.3 inch laptop case macbook air 13 case macbook pro 13 sleeve',
+    seller: 'kayond',
+    wholePrice: '11',
+    priceFraction: '99',
+    stock: 86,
+    star: 4,
+    starCount: 2359,
+    discount: 23,
+    img:
+      'https://images-na.ssl-images-amazon.com/images/I/51zDiHyaE1L._AC_US218_.jpg',
+    url:
+      'https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_btf_electronics_sr_pg1_1?ie=UTF8&adId=A03286941HBVHVI1MCDYH&url=https%3A%2F%2Fwww.amazon.com%2FKayond-Pattern-Canvas-12-5inch-macbook%2Fdp%2FB01M8J68W0%2Fref%3Dsr_1_27%3Fs%3Delectronics%26ie%3DUTF8%26qid%3D1499124890%26sr%3D1-27-spons%26keywords%3Dlaptop%26psc%3D1&qualifier=1499124889&id=6267744216991374&widgetName=sp_btf',
+    features: [],
+    price: 11.99,
+    shipping: 3.99,
+  },
+  {
+    key: 'B072TY6LZL',
+    category: 'laptop',
+    name:
+      'Microsoft Surface Laptop 13.5 inch Screen Protector, Megoo Premium [Tempered Glass] Anti-scratch bubble free Screen Protector for Microsoft Surface Laptop (2017 Release)',
+    seller: 'Megoo',
+    wholePrice: '17',
+    priceFraction: '77',
+    stock: 75,
+    star: 0,
+    starCount: 3019,
+    discount: 11,
+    img:
+      'https://images-na.ssl-images-amazon.com/images/I/51YGz9inR9L._AC_US218_.jpg',
+    url:
+      'https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_btf_electronics_sr_pg1_2?ie=UTF8&adId=A08835611S2XQ8K5PH7WW&url=https%3A%2F%2Fwww.amazon.com%2FMicrosoft-Protector-Megoo-Tempered-Anti-scratch%2Fdp%2FB072TY6LZL%2Fref%3Dsr_1_28%3Fs%3Delectronics%26ie%3DUTF8%26qid%3D1499124890%26sr%3D1-28-spons%26keywords%3Dlaptop%26psc%3D1&qualifier=1499124889&id=6267744216991374&widgetName=sp_btf',
+    features: [],
+    price: 17.77,
+    shipping: 3.99,
+  },
+];
+
+export default laptops;

@@ -5,3 +5,10 @@
 body {
   background-color: #eaeded;
 }
+
+a,
+Link {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+}
