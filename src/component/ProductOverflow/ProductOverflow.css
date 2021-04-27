@@ -1,0 +1,82 @@
+.productOverflow {
+  max-width: 1500px;
+  margin: 0 20px 25px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  height: 295px;
+}
+
+.productOverflow__home {
+  margin: -70px auto 0;
+  max-width: 1500px;
+}
+
+@media (max-width: 600px) {
+  .productOverflow__home {
+    margin: 20px auto 0;
+    max-width: 1500px;
+  }
+}
+
+.productOverflow__container {
+  overflow-x: hidden;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.productOverflow:hover .productOverflow__container {
+  overflow-x: scroll;
+}
+
+.productOverflow__img {
+  width: 100%;
+  padding: 20px 0;
+}
+
+@media (max-width: 400px) {
+  .productOverflow__img {
+    width: 150px;
+  }
+  .productOverflow {
+    height: 240px;
+  }
+}
+
+.overflow__header {
+  display: flex;
+  align-items: center;
+}
+
+.overflow__heading {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.overflow__link {
+  color: #007185;
+}
+
+.overflow__link:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+::-webkit-scrollbar {
+  width: 12px;
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(172, 172, 172);
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(129, 129, 129);
+}

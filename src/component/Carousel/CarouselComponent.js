@@ -11,6 +11,7 @@ import './CarouselComponent.css';
 const CarouselComponent = () => {
   return (
     <Carousel
+      className="carousel"
       autoPlay
       dynamicHeight={false}
       infiniteLoop

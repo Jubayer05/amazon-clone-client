@@ -1,0 +1,128 @@
+.payment {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+
+.payment__container {
+  width: 1000px;
+}
+
+.payment__container > h1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px solid lightgray;
+}
+
+.payment__container > h1 > .payment__itemsLink {
+  color: blue;
+  display: inline;
+}
+
+.payment__section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.payment__title {
+  flex: 0.2;
+}
+
+.payment__address,
+.payment__items,
+.payment__details {
+  flex: 0.8;
+}
+
+.payment__details h4 {
+  padding-bottom: 10px;
+}
+
+.payment__details h4 span {
+  font-size: 24px;
+  color: #c62828;
+}
+
+.payment__details p {
+  padding-bottom: 15px;
+}
+.payment__details p span {
+  font-weight: bold;
+}
+.payment__notation {
+  color: red;
+}
+
+@media (max-width: 600px) {
+  .payment {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding-bottom: 30px;
+  }
+
+  .payment__container {
+    width: 1000px;
+  }
+
+  .payment__container > h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    background-color: rgb(234, 237, 237);
+    border-bottom: 1px solid lightgray;
+  }
+
+  .payment__container > h1 > .payment__itemsLink {
+    color: blue;
+    display: inline;
+  }
+
+  .payment__section--review {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .payment__title {
+    margin-bottom: 10px;
+  }
+
+  .payment__review--title {
+    margin-left: 20px;
+  }
+
+  .payment__address,
+  .payment__items,
+  .payment__details {
+    flex: 0.8;
+  }
+
+  .payment__details h4 {
+    padding-bottom: 10px;
+  }
+
+  .payment__details h4 span {
+    font-size: 24px;
+    color: #c62828;
+  }
+
+  .payment__details p {
+    padding-bottom: 15px;
+  }
+  .payment__details p span {
+    font-weight: bold;
+  }
+  .payment__notation {
+    color: red;
+  }
+}

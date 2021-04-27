@@ -5,6 +5,12 @@
   height: max-content;
 }
 
+@media (max-width: 860px) {
+  .checkout {
+    flex-direction: column-reverse;
+  }
+}
+
 .checkout__ad {
   width: 100%;
   margin-bottom: 10px;

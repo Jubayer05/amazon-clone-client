@@ -1,34 +1,31 @@
 import React from 'react';
-import ProductStar from '../ProductStar/ProductStar';
+import androids from '../../fakeData/Android';
+import cameras from '../../fakeData/Camera';
+import laptops from '../../fakeData/laptop';
+import ProductItem from './ProductItem/ProductItem';
 import './Product.css';
 
-const Product = ({ item }) => {
-  const { name, price, img, star, starCount, discount } = item;
+const Product = () => {
+  const androids3 = androids.slice(0, 3);
+  const cameras4 = cameras.slice(0, 4);
+  const laptop2 = laptops.slice(0, 2);
   return (
-    <div className="product">
-      <div className="product__info">
-        <p className="product__name">{name}</p>
-        <p className="product__price">
-          <span className="product__discountPrice">
-            ${(price - price * (discount / 100)).toFixed(2)}
-          </span>
-        </p>
-        <p className="product__discount">
-          <del>
-            <small>$</small>
-            <strong>{price}</strong>
-          </del>
-
-          <span className="product__discountRate"> (-{discount}% )</span>
-        </p>
-        <div className="product__star">
-          <ProductStar star={star} />
-        </div>
+    <div className="product__container">
+      <div className="product__row product__row--1">
+        {androids3.map((item) => (
+          <ProductItem item={item} key={item.key} />
+        ))}
       </div>
-
-      <img className="product__img" src={img} alt="" />
-
-      <button className="product__btn">Add to Cart</button>
+      <div className="product__row product__row--2">
+        {cameras4.map((item) => (
+          <ProductItem item={item} key={item.key} />
+        ))}
+      </div>
+      <div className="product__row product__row--3">
+        {laptop2.map((item) => (
+          <ProductItem item={item} key={item.key} />
+        ))}
+      </div>
     </div>
   );
 };
